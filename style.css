@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(./imagenes/fondo-netflix.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(0, 0, 0, 0.692);
+    background-blend-mode: color-dodge; 
+
+
+}
+
+.flex-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+}
+.flex-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: row;
+}
+.header img{
+    max-width: 100%;
+    height: auto;
+    
+   
+}
+.navegador{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+   
+   
+}
+.navbar-brand{
+    width: 160px;
+    height: 70px;
+    
+
+}
+.header-text{
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+.btn-outline-success{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.contenido-banner h1{
+    font-size: 3.125rem;
+    color: #f3f3f3;
+    width: 700px;
+
+}
+.contenido-banner h2{
+    font-size: 1rem;
+    color: #f3f3f3;
+    width: 700px;
+
+}
+.contenido-form  h3{
+    width: 700px;
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+    color: #f3f3f3;
+
+}
