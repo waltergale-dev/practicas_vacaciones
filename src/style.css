@@ -67,7 +67,7 @@
 .contenido-banner h1{
     font-size: 3.125rem;
     color: #f3f3f3;
-    width: 700px;
+    width: auto;
 
 }
 .contenido-banner h2{
@@ -77,8 +77,10 @@
 
 }
 .contenido-form  h3{
+    width: 100%;
+    letter-spacing: 1.3px;
     width: 700px;
-    font-size: 15px;
+    font-size: 16px;
     max-width: none;
     padding-bottom: 20px;
     color: #f3f3f3;
@@ -106,4 +108,18 @@
     font-size: 28px;
    
     border: none;
+}
+.input-group .form-control{
+    background-color: aqua;
+    border-color:gray ;
+    border-radius: 0px;
+    padding-left :5px;
+    padding-right : 170px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-right: 0px;
+}
+ .input-group .form-control{
+    padding-left: none;
+    padding-right: none;
 }
