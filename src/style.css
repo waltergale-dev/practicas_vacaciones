@@ -34,17 +34,18 @@
     max-width: 100%;
     height: auto;
     
+    
    
 }
 .navegador{
     position: absolute;
-    top: 40px;
+    top: -4px;
     width: 100%;
-   
+    padding: 0 40px;
    
 }
 .navbar-brand{
-    width: 160px;
+    width: 130px;
     height: 70px;
     
 
@@ -70,16 +71,39 @@
 
 }
 .contenido-banner h2{
-    font-size: 1rem;
+    font-size: 1.5em;
     color: #f3f3f3;
     width: 700px;
 
 }
 .contenido-form  h3{
     width: 700px;
-    font-size: 1.2rem;
+    font-size: 15px;
     max-width: none;
     padding-bottom: 20px;
     color: #f3f3f3;
 
+}
+.dropdown .dropdown-toggle{
+    margin-right: 30px;
+    background-color: rgba(36, 36, 37, 0.582);
+    color: #f3f3f3;
+    border-color: #f3f3f3;
+    border-radius: none;
+}
+.d-flex{
+    margin-right: 20px;
+}
+.d-flex .btn-outline-success {
+    padding: 3px 16px;
+    background-color: red;
+    color: #f3f3f3;
+}
+.contenido-form .btn-comenzar{
+    color: #f3f3f3;
+    padding: 10px 50px;
+    background-color: red;
+    font-size: 28px;
+   
+    border: none;
 }
